@@ -1,0 +1,101 @@
+# https://developer.apple.com/documentation/foundation llms.txt
+
+- [Foundation Framework](https://developer.apple.com/documentation/foundation): Explore essential data types and services for app development.
+- [Comparator Type Alias](https://developer.apple.com/documentation/foundation/comparator): Defines a block object for comparison operations in Swift.
+- [ListFormatter Overview](https://developer.apple.com/documentation/foundation/listformatter): Locale-aware formatting for lists of items in Swift.
+- [Swift Measurement Guide](https://developer.apple.com/documentation/foundation/measurement): Learn about Measurement types and unit conversions in Swift.
+- [NetServiceBrowserDelegate](https://developer.apple.com/documentation/foundation/netservicebrowserdelegate): Delegate protocol for managing network service discovery events.
+- [Apple Event Manager](https://developer.apple.com/documentation/foundation/nsappleeventmanager): Manage Apple events with handler registration and dispatching.
+- [NSAssertionHandler Overview](https://developer.apple.com/documentation/foundation/nsassertionhandler): Logs assertion failures to the console for debugging.
+- [NSBundleResourceRequest](https://developer.apple.com/documentation/foundation/nsbundleresourcerequest): Manage on-demand resources for iOS app downloads efficiently.
+- [NSCache Overview](https://developer.apple.com/documentation/foundation/nscache): Temporary storage for key-value pairs with eviction policies.
+- [NSCondition Overview](https://developer.apple.com/documentation/foundation/nscondition): Learn about NSCondition for thread synchronization in Swift.
+- [NSConnection Overview](https://developer.apple.com/documentation/foundation/nsconnection): Manage communication between objects across threads or processes.
+- [NSCopying Protocol](https://developer.apple.com/documentation/foundation/nscopying): Protocol for creating functional copies of objects in Swift.
+- [NSItemProviderWriting Protocol](https://developer.apple.com/documentation/foundation/nsitemproviderwriting): Protocol for item provider data retrieval implementation.
+- [NSNumber Class](https://developer.apple.com/documentation/foundation/nsnumber): NSNumber class wraps scalar numeric values in Swift.
+- [NSOrderedSet Overview](https://developer.apple.com/documentation/foundation/nsorderedset): Static ordered collection of unique objects in Swift.
+- [NSPredicate Overview](https://developer.apple.com/documentation/foundation/nspredicate): Learn how to use NSPredicate for filtering data effectively.
+- [NSSortDescriptor Guide](https://developer.apple.com/documentation/foundation/nssortdescriptor): Learn how to use NSSortDescriptor for sorting data.
+- [iCloud Key-Value Store](https://developer.apple.com/documentation/foundation/nsubiquitouskeyvaluestore): iCloud key-value store for sharing app data across devices.
+- [NSUnicodeStringEncoding](https://developer.apple.com/documentation/foundation/nsunicodestringencoding): Canonical Unicode encoding for string objects in Foundation.
+- [NSURLError Peer Trust Key](https://developer.apple.com/documentation/foundation/nsurlerrorfailingurlpeertrusterrorkey): Details about NSURLErrorFailingURLPeerTrustErrorKey and its usage.
+- [NSUTF8StringEncoding](https://developer.apple.com/documentation/foundation/nsutf8stringencoding): An 8-bit Unicode representation for ASCII-based systems.
+- [Memory Zone Management](https://developer.apple.com/documentation/foundation/nszone): Manage memory zones in Apple development environments.
+- [Operation Queue](https://developer.apple.com/documentation/foundation/operationqueue): Manage and execute operations efficiently in iOS apps.
+- [Output Stream Class](https://developer.apple.com/documentation/foundation/outputstream): Write-only stream functionality for data handling in iOS.
+- [Person Name Formatter](https://developer.apple.com/documentation/foundation/personnamecomponentsformatter): Formatter for localized representations of personal name components.
+- [Using Predicates in Swift](https://developer.apple.com/documentation/foundation/predicate): Learn to use predicates for filtering and searching data.
+- [Sort Comparator Protocol](https://developer.apple.com/documentation/foundation/sortcomparator): Protocol for defining custom sorting algorithms in Swift.
+- [Cocoa Stream Class](https://developer.apple.com/documentation/foundation/stream): Abstract class for handling data streams in Cocoa.
+- [Stream Delegate Protocol](https://developer.apple.com/documentation/foundation/streamdelegate): Interface for handling stream events in iOS and macOS.
+- [Term Of Address](https://developer.apple.com/documentation/foundation/termofaddress): Type for representing grammatical gender in localized text.
+- [Unit Fuel Efficiency](https://developer.apple.com/documentation/foundation/unitfuelefficiency): Class for measuring fuel efficiency in various units.
+- [URL Protection Space](https://developer.apple.com/documentation/foundation/urlprotectionspace): Defines authentication requirements for server protection spaces.
+- [URLSession Overview](https://developer.apple.com/documentation/foundation/urlsession): API for managing network data transfer tasks in apps.
+- [URLSessionDataTask Overview](https://developer.apple.com/documentation/foundation/urlsessiondatatask): Learn about URLSessionDataTask for data retrieval in apps.
+- [URLSessionTask Overview](https://developer.apple.com/documentation/foundation/urlsessiontask): Learn about URLSessionTask for managing network tasks.
+- [UserDefaults Interface](https://developer.apple.com/documentation/foundation/userdefaults): Interface for storing user preferences in apps.
+- [iCloud File Download Status](https://developer.apple.com/documentation/foundation/urlubiquitousitemdownloadingstatus): Describes iCloud file download status values and usage.
+- [Dimension Class Overview](https://developer.apple.com/documentation/foundation/dimension): Abstract class for defining dimensional units of measure.
+- [Property List Encoder](https://developer.apple.com/documentation/foundation/propertylistencoder): Encodes data types to property lists for various platforms.
+- [KeyPathComparator Overview](https://developer.apple.com/documentation/foundation/keypathcomparator): Comparator for comparing values at a key path.
+- [Locale Information](https://developer.apple.com/documentation/foundation/locale): Explore linguistic and cultural conventions for data formatting.
+- [Swift Date Structure](https://developer.apple.com/documentation/foundation/date): Explore the Date structure for time management in Swift.
+- [Process Class Overview](https://developer.apple.com/documentation/foundation/process): Manage subprocesses in macOS applications using Process class.
+- [Spotlight Metadata Query](https://developer.apple.com/documentation/foundation/nsmetadataquery): Query Spotlight metadata with NSMetadataQuery class functionality.
+- [Notification Overview](https://developer.apple.com/documentation/foundation/notification): Learn about notifications and their usage in iOS development.
+- [Bonjour Service Discovery](https://developer.apple.com/documentation/foundation/bonjour): Discover and advertise local network services easily with Bonjour.
+- [unichar Type Alias](https://developer.apple.com/documentation/foundation/unichar): Type alias for UTF-16 code units in Swift.
+- [Unit Acceleration](https://developer.apple.com/documentation/foundation/unitacceleration): Class for measuring acceleration in various units.
+- [Localized Error Protocol](https://developer.apple.com/documentation/foundation/localizederror): Protocol for creating localized error messages in Swift.
+- [NSAssert Macro](https://developer.apple.com/documentation/foundation/nsassert): Macro for generating assertions in Objective-C code.
+- [NSCharacterSet Overview](https://developer.apple.com/documentation/foundation/nscharacterset): Explore NSCharacterSet for managing Unicode character sets.
+- [Block Operation Class](https://developer.apple.com/documentation/foundation/blockoperation): Manage concurrent execution of multiple blocks efficiently.
+- [Client Certificate Authentication](https://developer.apple.com/documentation/foundation/nsurlauthenticationmethodclientcertificate): Client certificate authentication method for various protocols.
+- [Temperature Measurement Units](https://developer.apple.com/documentation/foundation/unittemperature): Explore temperature measurement units like Celsius and Fahrenheit.
+- [URL File Protection](https://developer.apple.com/documentation/foundation/urlfileprotection): Explore URL file protection levels for secure data storage.
+- [Unit of Electric Resistance](https://developer.apple.com/documentation/foundation/unitelectricresistance): Class representing electric resistance units like ohms and megaohms.
+- [NSUnderlyingErrorKey Overview](https://developer.apple.com/documentation/foundation/nsunderlyingerrorkey): Describes the NSUnderlyingErrorKey for error handling.
+- [Number Formatter](https://developer.apple.com/documentation/foundation/numberformatter): Formatter for converting numeric values to text and vice versa.
+- [File System URL Keys](https://developer.apple.com/documentation/foundation/urlresourcekey): Explore keys for file system URLs in Apple frameworks.
+- [NSGarbageCollector Overview](https://developer.apple.com/documentation/foundation/nsgarbagecollector): Interface for managing garbage collection in Cocoa applications.
+- [NSExtensionContext Overview](https://developer.apple.com/documentation/foundation/nsextensioncontext): NSExtensionContext manages app extension requests and data.
+- [Formatter Class Overview](https://developer.apple.com/documentation/foundation/formatter): Abstract class for creating and validating text representations.
+- [User Notification Center](https://developer.apple.com/documentation/foundation/nsusernotificationcenter): Manage user notifications in macOS applications effectively.
+- [NSItemProviderReading Protocol](https://developer.apple.com/documentation/foundation/nsitemproviderreading): Protocol for creating instances from pasted or dropped items.
+- [NSInvocationOperation Class](https://developer.apple.com/documentation/foundation/nsinvocationoperation): Manage execution of a single encapsulated task invocation.
+- [Unit Converter Class](https://developer.apple.com/documentation/foundation/unitconverter): Abstract class for unit conversion in various dimensions.
+- [SocketPort Class](https://developer.apple.com/documentation/foundation/socketport): SocketPort class for BSD socket communication in macOS.
+- [Property List Decoder](https://developer.apple.com/documentation/foundation/propertylistdecoder): Decodes data types from property lists in Swift.
+- [Dynamic Attribute Lookup](https://developer.apple.com/documentation/foundation/attributedynamiclookup): Dynamic member lookup for attributes in Swift programming.
+- [HTTP Response Metadata](https://developer.apple.com/documentation/foundation/httpurlresponse): Class for handling HTTP response metadata in iOS apps.
+- [NSXPCListenerDelegate Protocol](https://developer.apple.com/documentation/foundation/nsxpclistenerdelegate): Protocol for managing XPC listener connections in iOS and macOS.
+- [NSRange Pointer Type](https://developer.apple.com/documentation/foundation/nsrangepointer): Pointer type for NSRange structure in Swift programming.
+- [NSEnumerator Class](https://developer.apple.com/documentation/foundation/nsenumerator): Abstract class for enumerating collections like arrays and dictionaries.
+- [CocoaError Overview](https://developer.apple.com/documentation/foundation/cocoaerror): CocoaError details various error codes and properties in Cocoa.
+- [NSUUID Unique Identifiers](https://developer.apple.com/documentation/foundation/nsuuid): Learn about NSUUID for unique identifier generation.
+- [HTTPCookieStorage Overview](https://developer.apple.com/documentation/foundation/httpcookiestorage): Manage and store cookies in iOS and macOS applications.
+- [Comparison Result Constants](https://developer.apple.com/documentation/foundation/comparisonresult): Constants indicating sort order for comparison results.
+- [NSDecimalNumber Class](https://developer.apple.com/documentation/foundation/nsdecimalnumber): Immutable class for base-10 arithmetic operations in Swift.
+- [POSIX Error Codes](https://developer.apple.com/documentation/foundation/posixerror): Learn about POSIX error codes in Foundation framework.
+- [NSCoding Protocol Overview](https://developer.apple.com/documentation/foundation/nscoding): Learn about NSCoding protocol for object encoding and decoding.
+- [NSXPCListenerEndpoint Class](https://developer.apple.com/documentation/foundation/nsxpclistenerendpoint): An object representing a specific XPC listener endpoint.
+- [Codable Configuration](https://developer.apple.com/documentation/foundation/codableconfiguration): A property wrapper for making types codable with configuration.
+- [NSDate Class Overview](https://developer.apple.com/documentation/foundation/nsdate): NSDate class represents a specific point in time accurately.
+- [JSON Decoding in Swift](https://developer.apple.com/documentation/foundation/jsondecoder): Decode JSON objects into Swift data types easily.
+- [URL Session Download Delegate](https://developer.apple.com/documentation/foundation/urlsessiondownloaddelegate): Protocol for handling download task events in URL sessions.
+- [Localized String Macro](https://developer.apple.com/documentation/foundation/nslocalizedstringwithdefaultvalue): Returns a localized string using a specified key and table.
+- [NSOrderedCollectionDifference](https://developer.apple.com/documentation/foundation/nsorderedcollectiondifference): Represents differences between two ordered collections in Swift.
+- [File Protection Levels](https://developer.apple.com/documentation/foundation/fileprotectiontype): Explore file protection levels and their attributes in iOS.
+- [NSConditionLock Overview](https://developer.apple.com/documentation/foundation/nsconditionlock): A lock for managing thread conditions in applications.
+- [Notification Center](https://developer.apple.com/documentation/foundation/notificationcenter): A mechanism for broadcasting notifications to observers in apps.
+- [NSFastEnumeration Protocol](https://developer.apple.com/documentation/foundation/nsfastenumeration): Protocol for fast enumeration of collections in Swift.
+- [Localized String Retrieval](https://developer.apple.com/documentation/foundation/nslocalizedstringfromtable): Retrieve localized strings from specified tables in Xcode.
+- [File Metadata Management](https://developer.apple.com/documentation/foundation/nsmetadataitem): Retrieve and manage file metadata attributes easily.
+- [File Version Management](https://developer.apple.com/documentation/foundation/nsfileversion): Manage and access file versions and revisions effectively.
+- [FileManagerDelegate Protocol](https://developer.apple.com/documentation/foundation/filemanagerdelegate): Delegate protocol for managing file operations in iOS.
+- [Data Transformer Class](https://developer.apple.com/documentation/foundation/nssecureunarchivefromdatatransformer): Transforms data securely for various class types in iOS.
+- [NSOSStatusErrorDomain Overview](https://developer.apple.com/documentation/foundation/nsosstatuserrordomain): Overview of NSOSStatusErrorDomain for handling Mac OS errors.
+- [Annotation Callout Info Change](https://developer.apple.com/documentation/foundation/nsnotification/name-swift.struct/mkannotationcalloutinfodidchange?changes=la__3__8_3,la__3__8_3): Observe changes in annotation title or subtitle information.
+- [Index of Object](https://developer.apple.com/documentation/foundation/nsarray/indexofobject(options:passingtest:)?changes=latest_minor&language=objc): Finds index of object in array using a test block.

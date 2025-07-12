@@ -1,0 +1,99 @@
+# https://developer.apple.com/documentation/accessibility llms.txt
+
+- [Accessibility Framework](https://developer.apple.com/documentation/accessibility): Build apps that work for everyone by making them accessible.
+- [UIAccessibility Protocol](https://developer.apple.com/documentation/uikit/uiaccessibility): The core protocol that provides accessibility information about UI elements.
+- [UIAccessibilityElement](https://developer.apple.com/documentation/uikit/uiaccessibilityelement): Create custom accessibility elements for complex views.
+- [UIAccessibilityContainer](https://developer.apple.com/documentation/uikit/uiaccessibilitycontainer): Protocol for views that contain multiple accessibility elements.
+- [UIAccessibilityCustomAction](https://developer.apple.com/documentation/uikit/uiaccessibilitycustomaction): Add custom actions to accessibility elements for VoiceOver users.
+- [UIAccessibilityTraits](https://developer.apple.com/documentation/uikit/uiaccessibilitytraits): Define the behavior and usage of accessibility elements.
+- [VoiceOver Support](https://developer.apple.com/documentation/uikit/accessibility_for_uikit/supporting_voiceover_in_your_app): Implement comprehensive VoiceOver support in your iOS app.
+- [UIAccessibility.Notification](https://developer.apple.com/documentation/uikit/uiaccessibility/notification): Post accessibility notifications to inform users of changes.
+- [UIAccessibilityPostNotification](https://developer.apple.com/documentation/uikit/1615194-uiaccessibilitypostnotification): Post accessibility notifications to assistive technologies.
+- [Dynamic Type](https://developer.apple.com/documentation/uikit/uifont/scaling_fonts_automatically): Support Dynamic Type for users who need larger text.
+- [UIAccessibilityIsVoiceOverRunning](https://developer.apple.com/documentation/uikit/1615187-uiaccessibilityisvoiceoverrunning): Check if VoiceOver is currently active.
+- [UIAccessibilityIsGuidedAccessEnabled](https://developer.apple.com/documentation/uikit/1615173-uiaccessibilityisguidedaccessenabled): Determine if Guided Access is enabled.
+- [UIAccessibilityIsSwitchControlRunning](https://developer.apple.com/documentation/uikit/1615131-uiaccessibilityisswitchcontrolrunning): Check if Switch Control is running.
+- [Accessibility Inspector](https://developer.apple.com/documentation/accessibility/accessibility_inspector): Debug and test accessibility features in your app.
+- [AssistiveTouch Support](https://developer.apple.com/documentation/uikit/accessibility_for_uikit/supporting_assistive_technologies): Support AssistiveTouch and other assistive technologies.
+- [UIAccessibilityCustomRotor](https://developer.apple.com/documentation/uikit/uiaccessibilitycustomrotor): Create custom rotors for enhanced VoiceOver navigation.
+- [UIAccessibilityLocationDescriptor](https://developer.apple.com/documentation/uikit/uiaccessibilitylocationdescriptor): Provide location information for accessibility elements.
+- [AXCustomContent](https://developer.apple.com/documentation/accessibility/axcustomcontent): Provide custom accessibility content for complex interfaces.
+- [AXBrailleMap](https://developer.apple.com/documentation/accessibility/axbraillemap): Support braille displays with custom braille representations.
+- [UIAccessibilityReadingContent](https://developer.apple.com/documentation/uikit/uiaccessibilityreadingcontent): Protocol for content that should be read as a continuous document.
+- [UIAccessibilityContentSizeCategoryDidChange](https://developer.apple.com/documentation/uikit/uiaccessibilitycontentsizecategorydidchangenotification): Notification when the user changes their preferred content size.
+- [UIAccessibilityDarkerSystemColorsEnabled](https://developer.apple.com/documentation/uikit/uiaccessibilitydarkersystemcolorsenabled): Check if the user prefers darker system colors.
+- [UIAccessibilityIsReduceMotionEnabled](https://developer.apple.com/documentation/uikit/1615133-uiaccessibilityisreducemotionenabled): Determine if Reduce Motion is enabled.
+- [UIAccessibilityIsReduceTransparencyEnabled](https://developer.apple.com/documentation/uikit/1615074-uiaccessibilityisreducetransparencyenabled): Check if Reduce Transparency is enabled.
+- [UIAccessibilityIsInvertColorsEnabled](https://developer.apple.com/documentation/uikit/1615167-uiaccessibilityisinvertcolorsenabled): Determine if Invert Colors is enabled.
+- [UIAccessibilityIsBoldTextEnabled](https://developer.apple.com/documentation/uikit/1615156-uiaccessibilityisboldtextenabled): Check if Bold Text is enabled.
+- [UIAccessibilityIsGrayscaleEnabled](https://developer.apple.com/documentation/uikit/1648479-uiaccessibilityisgrayscaleenabled): Determine if Grayscale mode is enabled.
+- [UIAccessibilityIsMonoAudioEnabled](https://developer.apple.com/documentation/uikit/1615123-uiaccessibilityismonoaudioenabled): Check if Mono Audio is enabled.
+- [UIAccessibilityIsClosedCaptioningEnabled](https://developer.apple.com/documentation/uikit/1615112-uiaccessibilityisclosedcaptioningenabled): Determine if Closed Captioning is enabled.
+- [UIAccessibilityIsSpeakSelectionEnabled](https://developer.apple.com/documentation/uikit/1615109-uiaccessibilityisspeakselectionenabled): Check if Speak Selection is enabled.
+- [UIAccessibilityIsSpeakScreenEnabled](https://developer.apple.com/documentation/uikit/1615141-uiaccessibilityisspeakscreenenabled): Determine if Speak Screen is enabled.
+- [UIAccessibilityIsShakeToUndoEnabled](https://developer.apple.com/documentation/uikit/1615103-uiaccessibilityishaketoundoenabled): Check if Shake to Undo is enabled.
+- [UIAccessibilityPrefersCrossFadeTransitions](https://developer.apple.com/documentation/uikit/1615200-uiaccessibilitypreferscrossfadetransitions): Determine if the user prefers cross-fade transitions.
+- [UIAccessibilityButtonShapesEnabled](https://developer.apple.com/documentation/uikit/uiaccessibilitybuttonshapesenabled): Check if button shapes are enabled for better visibility.
+- [UIAccessibilityIsVideoAutoplayEnabled](https://developer.apple.com/documentation/uikit/uiaccessibilityisvideoautoplayenabled): Determine if video autoplay is enabled.
+- [UIAccessibilityDifferentiateWithoutColor](https://developer.apple.com/documentation/uikit/uiaccessibilitydifferentiatewithoutcolor): Check if the user needs differentiation without color.
+- [UIAccessibilityIsOnOffSwitchLabelsEnabled](https://developer.apple.com/documentation/uikit/uiaccessibilityisonoffswitchlabelsenabled): Determine if on/off switch labels are enabled.
+- [UIAccessibilityAnnouncementNotification](https://developer.apple.com/documentation/uikit/uiaccessibilityannouncementnotification): Post announcements to VoiceOver users.
+- [UIAccessibilityLayoutChangedNotification](https://developer.apple.com/documentation/uikit/uiaccessibilitylayoutchangednotification): Notify when screen layout changes significantly.
+- [UIAccessibilityScreenChangedNotification](https://developer.apple.com/documentation/uikit/uiaccessibilityscreenchangednotification): Notify when the entire screen content changes.
+- [UIAccessibilityPageScrolledNotification](https://developer.apple.com/documentation/uikit/uiaccessibilitypagescrollednotification): Notify when a page scrolls.
+- [UIAccessibilityPauseAssistiveTechnologyNotification](https://developer.apple.com/documentation/uikit/uiaccessibilitypauseassistivetechnologynotification): Temporarily pause assistive technology output.
+- [UIAccessibilityResumeAssistiveTechnologyNotification](https://developer.apple.com/documentation/uikit/uiaccessibilityresumeassistivetechnologynotification): Resume assistive technology output.
+- [UIAccessibilityAnnouncementDidFinishNotification](https://developer.apple.com/documentation/uikit/uiaccessibilityannouncementdidfinishnotification): Notification when an announcement finishes.
+- [UIAccessibilityElementFocusedNotification](https://developer.apple.com/documentation/uikit/uiaccessibilityelementfocusednotification): Notification when an element gains focus.
+- [UIAccessibilityFocusedElement](https://developer.apple.com/documentation/uikit/1615186-uiaccessibilityfocusedelement): Get the currently focused accessibility element.
+- [UIAccessibilityZoomFocusChanged](https://developer.apple.com/documentation/uikit/1615184-uiaccessibilityzoomfocuschanged): Notify Zoom that the focus has changed.
+- [UIAccessibilityRegisterGestureConflictWithZoom](https://developer.apple.com/documentation/uikit/1615183-uiaccessibilityregistergestureconflictwithzoom): Register gesture conflicts with Zoom.
+- [UIAccessibilityRequestGuidedAccessSession](https://developer.apple.com/documentation/uikit/1615160-uiaccessibilityrequestguidedaccesssession): Request to enable or disable Guided Access.
+- [UIAccessibilityConvertFrameToScreenCoordinates](https://developer.apple.com/documentation/uikit/1615146-uiaccessibilityconvertframetoscreencoordinates): Convert frame to screen coordinates for accessibility.
+- [UIAccessibilityConvertPathToScreenCoordinates](https://developer.apple.com/documentation/uikit/1615145-uiaccessibilityconvertpathtoscreencoordinates): Convert path to screen coordinates for accessibility.
+- [UIAccessibilityIsAssistiveTouchRunning](https://developer.apple.com/documentation/uikit/1615175-uiaccessibilityisassistivetouchrunning): Check if AssistiveTouch is running.
+- [UIAccessibilityShouldDifferentiateWithoutColor](https://developer.apple.com/documentation/uikit/uiaccessibilityshouldifferentiatewithoutcolor): Determine if interface should differentiate without color.
+- [UIAccessibilityHearingDevicePairedEar](https://developer.apple.com/documentation/uikit/uiaccessibilityhearingdevicepairedear): Get information about paired hearing devices.
+- [UIAccessibilityTextFieldElement](https://developer.apple.com/documentation/uikit/uiaccessibilitytextfieldelement): Accessibility support for text field elements.
+- [UIAccessibilityPickerComponent](https://developer.apple.com/documentation/uikit/uiaccessibilitypickercomponent): Accessibility support for picker components.
+- [UIAccessibilityLanguage](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/language): Specify language for accessibility elements.
+- [UIAccessibilityIdentifier](https://developer.apple.com/documentation/uikit/uiaccessibilityidentification/1623132-accessibilityidentifier): Unique identifier for accessibility testing.
+- [UIAccessibilityUserInputLabels](https://developer.apple.com/documentation/uikit/uiaccessibilityuserinputlabels): Alternative labels for voice control.
+- [UIAccessibilityAttributedLabel](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615179-accessibilityattributedlabel): Attributed string for accessibility label.
+- [UIAccessibilityAttributedHint](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615178-accessibilityattributedhint): Attributed string for accessibility hint.
+- [UIAccessibilityAttributedValue](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615177-accessibilityattributedvalue): Attributed string for accessibility value.
+- [UIAccessibilityTextualContext](https://developer.apple.com/documentation/uikit/uiaccessibilitytextualcontext): Context for text elements to improve VoiceOver experience.
+- [UIAccessibilityContainerType](https://developer.apple.com/documentation/uikit/uiaccessibilitycontainertype): Type of container for accessibility elements.
+- [UIAccessibilityNavigationStyle](https://developer.apple.com/documentation/uikit/uiaccessibilitynavigationstyle): Navigation style for accessibility containers.
+- [UIAccessibilityScrollDirection](https://developer.apple.com/documentation/uikit/uiaccessibilityscrolldirection): Direction for accessibility scrolling.
+- [UIAccessibilityCustomSystemRotorType](https://developer.apple.com/documentation/uikit/uiaccessibilitycustomsystemrotortype): System-provided rotor types.
+- [UIAccessibilityDirectTouch](https://developer.apple.com/documentation/uikit/uiaccessibilitydirecttouch): Direct touch areas for musical instruments and games.
+- [UIAccessibilityLocationInView](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615165-accessibilitylocation): Get accessibility element location in view.
+- [UIAccessibilityActivationPoint](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615164-accessibilityactivationpoint): Activation point for accessibility elements.
+- [UIAccessibilityPath](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615163-accessibilitypath): Path for non-rectangular accessibility elements.
+- [UIAccessibilityNavigationStyle](https://developer.apple.com/documentation/uikit/accessibility/uiaccessibility/1615200-accessibilitynavigationstyle): Navigation style for container elements.
+- [UIAccessibilityContainerDataTable](https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatable): Protocol for data table accessibility.
+- [UIAccessibilityContainerDataTableCell](https://developer.apple.com/documentation/uikit/uiaccessibilitycontainerdatatablecell): Protocol for data table cell accessibility.
+- [UIAccessibilityCustomContentProvider](https://developer.apple.com/documentation/accessibility/uiaccessibilitycustomcontentprovider): Provide custom content for complex interfaces.
+- [UIAccessibilityContentSizeCategoryImageAdjusting](https://developer.apple.com/documentation/uikit/uiaccessibilitycontentsizecategoryimageadjusting): Adjust images for content size categories.
+- [UILargeContentViewerItem](https://developer.apple.com/documentation/uikit/uilargecontentvieweritem): Support large content viewer for small UI elements.
+- [UILargeContentViewerInteraction](https://developer.apple.com/documentation/uikit/uilargecontentviewerinteraction): Interaction for showing large content viewer.
+- [UIAccessibilityLocationDescriptor](https://developer.apple.com/documentation/uikit/uiaccessibilitylocationdescriptor): Describe locations for accessibility.
+- [NSAccessibility Protocol](https://developer.apple.com/documentation/appkit/nsaccessibility): macOS accessibility protocol for AppKit.
+- [NSAccessibilityElement](https://developer.apple.com/documentation/appkit/nsaccessibilityelement): Base class for macOS accessibility elements.
+- [NSAccessibilityCustomAction](https://developer.apple.com/documentation/appkit/nsaccessibilitycustomaction): Custom actions for macOS accessibility.
+- [NSAccessibilityCustomRotor](https://developer.apple.com/documentation/appkit/nsaccessibilitycustomrotor): Custom rotors for macOS VoiceOver.
+- [AXObserver](https://developer.apple.com/documentation/applicationservices/axobserver): Observe accessibility notifications on macOS.
+- [AXUIElement](https://developer.apple.com/documentation/applicationservices/axuielement): Accessibility UI element reference on macOS.
+- [AXValue](https://developer.apple.com/documentation/applicationservices/axvalue): Accessibility values for geometric and other data.
+- [AXError](https://developer.apple.com/documentation/applicationservices/axerror): Error codes for accessibility operations.
+- [Accessibility Best Practices](https://developer.apple.com/documentation/accessibility/accessibility-best-practices): Guidelines for creating accessible apps.
+- [Testing Accessibility](https://developer.apple.com/documentation/accessibility/testing-accessibility): Test your app's accessibility features.
+- [Accessibility Design Guidelines](https://developer.apple.com/documentation/accessibility/accessibility-design): Design principles for accessible interfaces.
+- [Supporting Multiple Assistive Technologies](https://developer.apple.com/documentation/accessibility/supporting-multiple-assistive-technologies): Support various assistive technologies simultaneously.
+- [Accessibility Localization](https://developer.apple.com/documentation/accessibility/accessibility-localization): Localize accessibility content for global users.
+- [Accessibility Performance](https://developer.apple.com/documentation/accessibility/accessibility-performance): Optimize accessibility features for performance.
+- [Custom Accessibility Rotors](https://developer.apple.com/documentation/uikit/accessibility/delivering_an_exceptional_accessibility_experience): Create custom rotors for efficient navigation.
+- [Accessibility in SwiftUI](https://developer.apple.com/documentation/swiftui/view-accessibility): Make SwiftUI views accessible.
+- [Accessibility Auditing](https://developer.apple.com/documentation/accessibility/accessibility-auditing): Audit your app for accessibility compliance.
+- [WCAG Compliance](https://developer.apple.com/documentation/accessibility/wcag-compliance): Meet Web Content Accessibility Guidelines in iOS apps.

@@ -1,0 +1,89 @@
+# https://developer.apple.com/documentation/usernotifications llms.txt
+
+- [User Notifications Framework](https://developer.apple.com/documentation/usernotifications): Push user-facing notifications to the user's device from a server, or generate them locally from your app.
+- [UNUserNotificationCenter](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter): The central object for managing notification-related activities for your app or app extension.
+- [UNUserNotificationCenterDelegate](https://developer.apple.com/documentation/usernotifications/unusernotificationcenterdelegate): An interface for processing incoming notifications and responding to notification actions.
+- [UNNotificationRequest](https://developer.apple.com/documentation/usernotifications/unnotificationrequest): A request to schedule a local notification, which includes the content of the notification and the trigger conditions for delivery.
+- [UNNotification](https://developer.apple.com/documentation/usernotifications/unnotification): The data for a local or remote notification the system delivers to your app.
+- [UNNotificationContent](https://developer.apple.com/documentation/usernotifications/unnotificationcontent): The uneditable content of a notification.
+- [UNMutableNotificationContent](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent): The editable content for a notification.
+- [UNNotificationSettings](https://developer.apple.com/documentation/usernotifications/unnotificationsettings): The object for managing notification-related settings and the authorization status of your app.
+- [UNNotificationResponse](https://developer.apple.com/documentation/usernotifications/unnotificationresponse): The user's response to an actionable notification.
+- [UNTextInputNotificationResponse](https://developer.apple.com/documentation/usernotifications/untextinputnotificationresponse): The user's response to an actionable notification, including any custom text that the user typed or dictated.
+- [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment): A media file associated with a notification.
+- [UNNotificationSound](https://developer.apple.com/documentation/usernotifications/unnotificationsound): The sound played upon delivery of a notification.
+- [UNNotificationSoundName](https://developer.apple.com/documentation/usernotifications/unnotificationsoundname): A string providing the name of a sound file.
+- [UNNotificationCategory](https://developer.apple.com/documentation/usernotifications/unnotificationcategory): A type of notification your app supports and the custom actions that the system displays.
+- [UNNotificationAction](https://developer.apple.com/documentation/usernotifications/unnotificationaction): A task your app performs in response to a notification that the system delivers.
+- [UNTextInputNotificationAction](https://developer.apple.com/documentation/usernotifications/untextinputnotificationaction): An action that accepts user-typed text.
+- [UNNotificationActionIcon](https://developer.apple.com/documentation/usernotifications/unnotificationactionicon): An icon associated with an action.
+- [UNNotificationTrigger](https://developer.apple.com/documentation/usernotifications/unnotificationtrigger): The common behavior for subclasses that trigger the delivery of a local or remote notification.
+- [UNTimeIntervalNotificationTrigger](https://developer.apple.com/documentation/usernotifications/untimeintervalnotificationtrigger): A trigger condition that causes the system to deliver a notification after the amount of time you specify elapses.
+- [UNCalendarNotificationTrigger](https://developer.apple.com/documentation/usernotifications/uncalendarnotificationtrigger): A trigger condition that causes a notification the system delivers at a specific date and time.
+- [UNLocationNotificationTrigger](https://developer.apple.com/documentation/usernotifications/unlocationnotificationtrigger): A trigger condition that causes the system to deliver a notification when the user's device enters or exits a geographic region you specify.
+- [UNPushNotificationTrigger](https://developer.apple.com/documentation/usernotifications/unpushnotificationtrigger): A trigger condition that indicates Apple Push Notification Service (APNs) has sent the notification.
+- [UNNotificationServiceExtension](https://developer.apple.com/documentation/usernotifications/unnotificationserviceextension): An object that modifies the content of a remote notification before it's delivered to the user.
+- [UNNotificationContentProviding](https://developer.apple.com/documentation/usernotifications/unnotificationcontentproviding): A protocol the system uses to provide context relevant to user notifications.
+- [UNAuthorizationOptions](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions): The authorization options your app requests when requesting authorization to use notifications.
+- [UNAuthorizationStatus](https://developer.apple.com/documentation/usernotifications/unauthorizationstatus): Constants indicating whether the app is allowed to schedule notifications.
+- [UNNotificationPresentationOptions](https://developer.apple.com/documentation/usernotifications/unnotificationpresentationoptions): Constants indicating how to present a notification in a foreground app.
+- [UNNotificationActionOptions](https://developer.apple.com/documentation/usernotifications/unnotificationactionoptions): Constants indicating additional behavior that the action supports.
+- [UNNotificationCategoryOptions](https://developer.apple.com/documentation/usernotifications/unnotificationcategoryoptions): Constants indicating actions the system can perform when notification of a specific category arrives.
+- [UNNotificationInterruptionLevel](https://developer.apple.com/documentation/usernotifications/unnotificationinterruptionlevel): The interruption level that indicates the priority and delivery timing of a notification.
+- [UNShowPreviewsSetting](https://developer.apple.com/documentation/usernotifications/unshowpreviewssetting): The setting that indicates whether an app shows notifications on a device's Lock Screen.
+- [UNNotificationSetting](https://developer.apple.com/documentation/usernotifications/unnotificationsetting): The setting values for how your app's notifications appear onscreen.
+- [UNAlertStyle](https://developer.apple.com/documentation/usernotifications/unalertstyle): Constants indicating the presentation styles for alerts.
+- [UNError](https://developer.apple.com/documentation/usernotifications/unerror): Constants that describe notification errors.
+- [UNErrorDomain](https://developer.apple.com/documentation/usernotifications/unerrordomain): The domain for UserNotifications errors.
+- [UNNotificationDefaultActionIdentifier](https://developer.apple.com/documentation/usernotifications/unnotificationdefaultactionidentifier): The default action for notifications.
+- [UNNotificationDismissActionIdentifier](https://developer.apple.com/documentation/usernotifications/unnotificationdismissactionidentifier): The action to dismiss a notification.
+- [UNNotificationAttachmentOptionsThumbnailTimeKey](https://developer.apple.com/documentation/usernotifications/unnotificationattachmentoptionsthumbnailtimekey): The key to specify the time of the thumbnail image for an attachment.
+- [UNNotificationAttachmentOptionsTypeHintKey](https://developer.apple.com/documentation/usernotifications/unnotificationattachmentoptionstypehintkey): The key that contains the uniform type identifier (UTI) of the attachment.
+- [Notification Request Identifier](https://developer.apple.com/documentation/usernotifications/unnotificationrequest/identifier): The unique identifier for a notification request.
+- [Notification Content Body](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/body): The message displayed in the notification alert.
+- [Notification Content Title](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent/title): The localized title that describes the notification.
+- [Notification Content Subtitle](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent/subtitle): The localized subtitle, displayed below the title in the notification alert.
+- [Notification Content User Info](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/userinfo): A dictionary containing remote notification payload information.
+- [Notification Content Thread Identifier](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/threadidentifier): An identifier that groups related notifications together.
+- [Notification Content Category Identifier](https://developer.apple.com/documentation/usernotifications/unnotificationcategory/identifier): The unique string that identifies the notification category.
+- [Notification Content Launch Image Name](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/launchimagename): The name of the launch image to display when your app launches in response to the notification.
+- [Notification Content Filter Criteria](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/filtercriteria): Contextual information used for notification filtering and ranking.
+- [Notification Content Interruption Level](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/interruptionlevel): The interruption level that determines the importance of the notification.
+- [Notification Content Relevance Score](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent/relevancescore): The relevance score for the notification content.
+- [Notification Content Sound](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent/sound): The sound to play when the notification is delivered.
+- [Notification Trigger Repeats](https://developer.apple.com/documentation/usernotifications/unnotificationtrigger/repeats): A Boolean value that indicates whether the system reschedules the notification after delivery.
+- [Location Trigger Region](https://developer.apple.com/documentation/usernotifications/unlocationnotificationtrigger/region): The geographic region to monitor for the trigger.
+- [Calendar Trigger Date Components](https://developer.apple.com/documentation/usernotifications/uncalendarnotificationtrigger): Trigger based on specific date components.
+- [Time Interval Trigger](https://developer.apple.com/documentation/usernotifications/untimeintervalnotificationtrigger): Trigger based on elapsed time interval.
+- [Notification Settings Alert Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/alertsetting): The authorization status for displaying alerts.
+- [Notification Settings Badge Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/badgesetting): The authorization status for displaying badges.
+- [Notification Settings Sound Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/soundsetting): The authorization status for playing sounds.
+- [Notification Settings Lock Screen Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/lockscreensetting): The authorization status for displaying notifications on the Lock Screen.
+- [Notification Settings Notification Center Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/notificationcentersetting): The authorization status for displaying notifications in Notification Center.
+- [Notification Settings CarPlay Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/carplaysetting): The authorization status for displaying notifications in CarPlay.
+- [Notification Settings Alert Style](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/alertstyle): The style for displaying alerts.
+- [Notification Settings Show Previews Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/showpreviewssetting): The setting that indicates whether your app shows notification previews.
+- [Notification Settings Time Sensitive Setting](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/timesensitivesetting): The authorization status for time-sensitive notifications.
+- [Notification Settings Provides App Notification Settings](https://developer.apple.com/documentation/usernotifications/unnotificationsettings/providesappnotificationsettings): A Boolean value that indicates whether your app has notification settings.
+- [Notification Response User Info](https://developer.apple.com/documentation/usernotifications/unnotificationresponse/notification): The notification object associated with the response.
+- [Notification Response Target Scene](https://developer.apple.com/documentation/usernotifications/unnotificationresponse/targetscene): The scene to activate when handling the notification response.
+- [Text Input Response User Text](https://developer.apple.com/documentation/usernotifications/untextinputnotificationresponse): The text input response from the user.
+- [Notification Action Title](https://developer.apple.com/documentation/usernotifications/unnotificationaction/title): The localized title of the action.
+- [Notification Action Icon](https://developer.apple.com/documentation/usernotifications/unnotificationaction/icon): The icon associated with the action.
+- [Notification Category Actions](https://developer.apple.com/documentation/usernotifications/unnotificationcategory/actions): The actions to display when a notification of this category is presented.
+- [Notification Category Options](https://developer.apple.com/documentation/usernotifications/unnotificationcategory/options): Options for how to handle notifications of this category.
+- [Notification Category Summary Format](https://developer.apple.com/documentation/usernotifications/unnotificationcategory/categorysummaryformat): A format string to use for the summary of grouped notifications.
+- [Notification Category Hidden Previews Body Placeholder](https://developer.apple.com/documentation/usernotifications/unnotificationcategory/hiddenpreviewsbodyplaceholder): The placeholder text for notification previews when previews are hidden.
+- [Notification Attachment URL](https://developer.apple.com/documentation/usernotifications/unnotificationattachment/url): The URL to the attachment's file.
+- [Authorization Options Badge](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/badge): The ability to update the app's badge.
+- [Authorization Options Sound](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/sound): The ability to play sounds.
+- [Authorization Options Alert](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/alert): The ability to display alerts.
+- [Authorization Options CarPlay](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/carplay): The ability to display notifications in CarPlay.
+- [Authorization Options Critical Alert](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/criticalalert): The ability to post critical alerts.
+- [Authorization Options Provisional](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/provisional): The ability to post provisional notifications.
+- [Authorization Options Provides App Notification Settings](https://developer.apple.com/documentation/usernotifications/unauthorizationoptions/providesappnotificationsettings): An option indicating the app has custom notification settings.
+- [Authorization Status Not Determined](https://developer.apple.com/documentation/usernotifications/unauthorizationstatus/notdetermined): The user hasn't yet made a choice about whether the app is allowed to schedule notifications.
+- [Authorization Status Authorized](https://developer.apple.com/documentation/usernotifications/unauthorizationstatus/authorized): The app is authorized to schedule notifications.
+- [Authorization Status Denied](https://developer.apple.com/documentation/usernotifications/unauthorizationstatus/denied): The app isn't authorized to schedule or receive notifications.
+- [Authorization Status Provisional](https://developer.apple.com/documentation/usernotifications/unauthorizationstatus/provisional): The app is provisionally authorized to post notifications.
+- [Authorization Status Ephemeral](https://developer.apple.com/documentation/usernotifications/unauthorizationstatus/ephemeral): The app is authorized to schedule notifications for a limited time.

@@ -1,0 +1,40 @@
+# https://developer.apple.com/documentation/backgroundtasks llms.txt
+
+- [Background Tasks](https://developer.apple.com/documentation/backgroundtasks): Support background processing in your app by wrapping your app's most critical work in framework-provided tasks.
+- [BGTaskScheduler](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler): A class for scheduling tasks that add background support to your app's most critical work.
+- [BGTask](https://developer.apple.com/documentation/backgroundtasks/bgtask): An abstract class for the framework's tasks.
+- [BGProcessingTask](https://developer.apple.com/documentation/backgroundtasks/bgprocessingtask): A time-consuming processing task that runs while the app is in the background.
+- [BGAppRefreshTask](https://developer.apple.com/documentation/backgroundtasks/bgapprefreshtask): An object representing a short task typically used to refresh content that's run while the app is in the background.
+- [BGHealthResearchTask](https://developer.apple.com/documentation/backgroundtasks/bghealthresearchtask): A time-consuming, necessary processing task that runs while the app is in the background to prepare data essential to a health research study.
+- [BGContinuedProcessingTask](https://developer.apple.com/documentation/backgroundtasks/bgcontinuedprocessingtask): A task that starts in the foreground and can continue running in the background as needed.
+- [BGProcessingTaskRequest](https://developer.apple.com/documentation/backgroundtasks/bgprocessingtaskrequest): A request to launch your app in the background to execute a processing task that can take minutes to complete.
+- [BGAppRefreshTaskRequest](https://developer.apple.com/documentation/backgroundtasks/bgapprefreshtaskrequest): A request to launch your app in the background to execute a short refresh task.
+- [BGTaskRequest](https://developer.apple.com/documentation/backgroundtasks/bgtaskrequest): An abstract class for representing task requests.
+- [BGHealthResearchTaskRequest](https://developer.apple.com/documentation/backgroundtasks/bghealthresearchtaskrequest): A request to launch your app in the background to execute processing for a health research study in which a user participates.
+- [BGContinuedProcessingTaskRequest](https://developer.apple.com/documentation/backgroundtasks/bgcontinuedprocessingtaskrequest): A request for a workload that the system continues processing even if a person backgrounds the app.
+- [Using background tasks to update your app](https://developer.apple.com/documentation/UIKit/using-background-tasks-to-update-your-app): Configure your app to perform tasks in the background to make efficient use of processing time and power.
+- [Refreshing and Maintaining Your App Using Background Tasks](https://developer.apple.com/documentation/backgroundtasks/refreshing-and-maintaining-your-app-using-background-tasks): Use scheduled background tasks for refreshing your app content and for performing maintenance.
+- [Choosing Background Strategies for Your App](https://developer.apple.com/documentation/backgroundtasks/choosing-background-strategies-for-your-app): Select the best method of scheduling background runtime for your app.
+- [Performing long-running tasks on iOS and iPadOS](https://developer.apple.com/documentation/backgroundtasks/performing-long-running-tasks-on-ios-and-ipados): Use a continuous background task to do work that can complete as needed.
+- [Starting and Terminating Tasks During Development](https://developer.apple.com/documentation/backgroundtasks/starting-and-terminating-tasks-during-development): Use the debugger during development to start tasks and to terminate them before completion.
+- [BGTaskScheduler shared](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/shared): The shared scheduler instance.
+- [BGTaskScheduler submit(_:)](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/submit(_:)): Submits a task request for the system to execute in the background.
+- [BGTaskScheduler cancel(taskRequestWithIdentifier:)](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/cancel(taskrequestwithidentifier:)): Cancels a pending task request with the specified identifier.
+- [BGTaskScheduler cancelAllTaskRequests()](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/cancelalltaskrequests()): Cancels all pending task requests.
+- [BGTaskScheduler getPendingTaskRequests(completionHandler:)](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/getpendingtaskrequests(completionhandler:)): Fetches all pending task requests.
+- [BGTaskScheduler register(forTaskWithIdentifier:using:launchHandler:)](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/register(fortaskwithidentifier:using:launchhandler:)): Registers a launch handler for the task with the associated identifier.
+- [BGTask identifier](https://developer.apple.com/documentation/backgroundtasks/bgtask/identifier): The identifier associated with this task.
+- [BGTask expirationHandler](https://developer.apple.com/documentation/backgroundtasks/bgtask/expirationhandler): The handler to call shortly before the task's background time expires.
+- [BGTask setTaskCompleted(success:)](https://developer.apple.com/documentation/backgroundtasks/bgtask/settaskcompleted(success:)): Marks the task as complete and signals whether the task completed successfully.
+- [BGTaskRequest earliestBeginDate](https://developer.apple.com/documentation/backgroundtasks/bgtaskrequest/earliestbegindate): The earliest date and time at which the system can run the task.
+- [BGProcessingTaskRequest requiresExternalPower](https://developer.apple.com/documentation/backgroundtasks/bgprocessingtaskrequest/requiresexternalpower): A Boolean value indicating whether the processing task requires external power to run.
+- [BGProcessingTaskRequest requiresNetworkConnectivity](https://developer.apple.com/documentation/backgroundtasks/bgprocessingtaskrequest/requiresnetworkconnectivity): A Boolean value indicating whether the processing task requires network connectivity.
+- [BGProcessingTaskRequest init(identifier:)](https://developer.apple.com/documentation/backgroundtasks/bgprocessingtaskrequest/init(identifier:)): Initializes a processing task request with the specified identifier.
+- [BGAppRefreshTaskRequest init(identifier:)](https://developer.apple.com/documentation/backgroundtasks/bgapprefreshtaskrequest/init(identifier:)): Initializes an app refresh task request with the specified identifier.
+- [BGHealthResearchTaskRequest protectionTypeOfRequiredData](https://developer.apple.com/documentation/backgroundtasks/bghealthresearchtaskrequest/protectiontypeofrequireddata): The file protection type that the required data must have for the background task to run.
+- [BGTaskScheduler Error](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/error): Errors that can occur when scheduling background tasks.
+- [BGTaskScheduler Error notPermitted](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/error/notpermitted): The task request isn't permitted.
+- [BGTaskScheduler Error tooManyPendingTaskRequests](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/error/toomanypendingtaskrequests): The app has too many pending task requests.
+- [BGTaskScheduler Error unavailable](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/error/unavailable): Background tasks are unavailable.
+- [BGTaskScheduler errorDomain](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler/errordomain): The error domain for task scheduler errors.
+- [Background GPU Access Entitlement](https://developer.apple.com/documentation/BundleResources/Entitlements/com.apple.developer.background-tasks.continued-processing.gpu): The entitlement the system requires for a continuous background task to use the GPU.

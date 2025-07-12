@@ -1,0 +1,96 @@
+# https://developer.apple.com/documentation/swiftdata llms.txt
+
+- [SwiftData Framework](https://developer.apple.com/documentation/swiftdata): Modern data persistence framework for Swift apps with seamless integration.
+- [@Model Macro](https://developer.apple.com/documentation/swiftdata/model()): Macro that transforms Swift classes into persistable data models.
+- [ModelContainer](https://developer.apple.com/documentation/swiftdata/modelcontainer): Container that manages the schema and storage configuration for models.
+- [ModelContext](https://developer.apple.com/documentation/swiftdata/modelcontext): Context for managing model objects and tracking changes.
+- [Schema](https://developer.apple.com/documentation/swiftdata/schema): Defines the structure and relationships of your data models.
+- [FetchDescriptor](https://developer.apple.com/documentation/swiftdata/fetchdescriptor): Describes criteria for fetching model objects from storage.
+- [@Query Macro](https://developer.apple.com/documentation/swiftdata/query): Property wrapper for fetching and observing model data in SwiftUI.
+- [ModelConfiguration](https://developer.apple.com/documentation/swiftdata/modelconfiguration): Configuration options for model storage including CloudKit sync.
+- [PersistentModel Protocol](https://developer.apple.com/documentation/swiftdata/persistentmodel): Protocol that all SwiftData models conform to.
+- [VersionedSchema](https://developer.apple.com/documentation/swiftdata/versionedschema): Protocol for defining versioned schemas for migration.
+- [SchemaMigrationPlan](https://developer.apple.com/documentation/swiftdata/schemamigrationplan): Plan for migrating data between schema versions.
+- [MigrationStage](https://developer.apple.com/documentation/swiftdata/migrationstage): Individual stage in a schema migration process.
+- [RelationshipCollection](https://developer.apple.com/documentation/swiftdata/relationshipcollection): Collection type for managing model relationships.
+- [@Transient Macro](https://developer.apple.com/documentation/swiftdata/transient()): Marks properties that should not be persisted.
+- [ModelActor](https://developer.apple.com/documentation/swiftdata/modelactor): Actor for concurrent access to model data.
+- [@ModelActor Macro](https://developer.apple.com/documentation/swiftdata/modelactor()): Macro for creating custom model actors.
+- [FetchResultsCollection](https://developer.apple.com/documentation/swiftdata/fetchresultscollection): Collection of fetched model objects with lazy loading.
+- [PersistentIdentifier](https://developer.apple.com/documentation/swiftdata/persistentidentifier): Unique identifier for persistent model objects.
+- [ModelExecutor Protocol](https://developer.apple.com/documentation/swiftdata/modelexecutor): Protocol for executing model operations.
+- [DefaultSerialModelExecutor](https://developer.apple.com/documentation/swiftdata/defaultserialmodelexecutor): Default serial executor for model operations.
+- [SerialModelExecutor](https://developer.apple.com/documentation/swiftdata/serialmodelexecutor): Serial executor ensuring thread-safe model access.
+- [DataStore Protocol](https://developer.apple.com/documentation/swiftdata/datastore): Protocol defining custom data store implementations.
+- [DefaultStore](https://developer.apple.com/documentation/swiftdata/defaultstore): Default SQLite-based data store implementation.
+- [DataStoreConfiguration](https://developer.apple.com/documentation/swiftdata/datastoreconfiguration): Configuration for custom data stores.
+- [BackingData](https://developer.apple.com/documentation/swiftdata/backingdata): Low-level backing storage for model data.
+- [ModelDocument](https://developer.apple.com/documentation/swiftdata/modeldocument): Document-based app support for SwiftData models.
+- [SwiftDataError](https://developer.apple.com/documentation/swiftdata/swiftdataerror): Errors that can occur in SwiftData operations.
+- [DataStoreError](https://developer.apple.com/documentation/swiftdata/datastoreerror): Errors specific to data store operations.
+- [Schema.Entity](https://developer.apple.com/documentation/swiftdata/schema/entity): Entity definition within a schema.
+- [Schema.Attribute](https://developer.apple.com/documentation/swiftdata/schema/attribute): Attribute definition for model properties.
+- [Schema.Relationship](https://developer.apple.com/documentation/swiftdata/schema/relationship): Relationship definition between entities.
+- [Schema.CompositeAttribute](https://developer.apple.com/documentation/swiftdata/schema/compositeattribute): Composite attribute for complex properties.
+- [SchemaProperty](https://developer.apple.com/documentation/swiftdata/schemaproperty): Base protocol for schema properties.
+- [ModelContext.hasChanges](https://developer.apple.com/documentation/swiftdata/modelcontext/haschanges): Check if context has unsaved changes.
+- [ModelContext.autosaveEnabled](https://developer.apple.com/documentation/swiftdata/modelcontext/autosaveenabled): Enable automatic saving of changes.
+- [ModelContext.willSave](https://developer.apple.com/documentation/swiftdata/modelcontext/willsave): Notification before context saves.
+- [ModelContext.didSave](https://developer.apple.com/documentation/swiftdata/modelcontext/didsave): Notification after context saves.
+- [ModelContext.insertedModelsArray](https://developer.apple.com/documentation/swiftdata/modelcontext/insertedmodelsarray): Array of newly inserted models.
+- [ModelContext.deletedModelsArray](https://developer.apple.com/documentation/swiftdata/modelcontext/deletedmodelsarray): Array of deleted models.
+- [ModelContext.changedModelsArray](https://developer.apple.com/documentation/swiftdata/modelcontext/changedmodelsarray): Array of modified models.
+- [ModelContext.undoManager](https://developer.apple.com/documentation/swiftdata/modelcontext/undomanager): Undo manager for model changes.
+- [ModelContainer.mainContext](https://developer.apple.com/documentation/swiftdata/modelcontainer/maincontext): Main context for UI operations.
+- [ModelContainer.schema](https://developer.apple.com/documentation/swiftdata/modelcontainer/schema): Schema managed by the container.
+- [ModelContainer.configurations](https://developer.apple.com/documentation/swiftdata/modelcontainer/configurations): Storage configurations for the container.
+- [ModelContainer.migrationPlan](https://developer.apple.com/documentation/swiftdata/modelcontainer/migrationplan): Migration plan for schema changes.
+- [ModelConfiguration.url](https://developer.apple.com/documentation/swiftdata/modelconfiguration/url): URL for persistent storage location.
+- [ModelConfiguration.isStoredInMemoryOnly](https://developer.apple.com/documentation/swiftdata/modelconfiguration/isstoredinmemoryonly): In-memory only storage option.
+- [ModelConfiguration.cloudKitContainerIdentifier](https://developer.apple.com/documentation/swiftdata/modelconfiguration/cloudkitcontaineridentifier): CloudKit container for sync.
+- [ModelConfiguration.groupAppContainerIdentifier](https://developer.apple.com/documentation/swiftdata/modelconfiguration/groupappcontaineridentifier): App group container identifier.
+- [ModelConfiguration.allowsSave](https://developer.apple.com/documentation/swiftdata/modelconfiguration/allowssave): Whether saving is allowed.
+- [ModelConfiguration.schema](https://developer.apple.com/documentation/swiftdata/modelconfiguration/schema): Schema for this configuration.
+- [FetchDescriptor.predicate](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/predicate): Predicate for filtering results.
+- [FetchDescriptor.sortBy](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/sortby): Sort descriptors for results.
+- [FetchDescriptor.fetchLimit](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/fetchlimit): Maximum number of results.
+- [FetchDescriptor.fetchOffset](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/fetchoffset): Offset for pagination.
+- [FetchDescriptor.includePendingChanges](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/includependingchanges): Include unsaved changes in results.
+- [FetchDescriptor.relationshipKeyPathsForPrefetching](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/relationshipkeypathsforprefetching): Prefetch relationships.
+- [FetchDescriptor.propertiesToFetch](https://developer.apple.com/documentation/swiftdata/fetchdescriptor/propertiestofetch): Specific properties to fetch.
+- [Query.wrappedValue](https://developer.apple.com/documentation/swiftdata/query/wrappedvalue): The fetched results from query.
+- [Query.modelContext](https://developer.apple.com/documentation/swiftdata/query/modelcontext): Model context used by query.
+- [Query.fetchError](https://developer.apple.com/documentation/swiftdata/query/fetcherror): Errors from fetch operations.
+- [Query() Initializer](https://developer.apple.com/documentation/swiftdata/query()): Initialize query with various parameters.
+- [PersistentIdentifier.entityName](https://developer.apple.com/documentation/swiftdata/persistentidentifier/entityname): Entity name for the identifier.
+- [PersistentIdentifier.storeIdentifier](https://developer.apple.com/documentation/swiftdata/persistentidentifier/storeidentifier): Store identifier component.
+- [VersionedSchema.models](https://developer.apple.com/documentation/swiftdata/versionedschema/models): Model types in this schema version.
+- [VersionedSchema.versionIdentifier](https://developer.apple.com/documentation/swiftdata/versionedschema/versionidentifier): Unique version identifier.
+- [ModelActor.modelContainer](https://developer.apple.com/documentation/swiftdata/modelactor/modelcontainer): Container for the actor.
+- [ModelActor.modelContext](https://developer.apple.com/documentation/swiftdata/modelactor/modelcontext): Context for the actor.
+- [ModelActor.modelExecutor](https://developer.apple.com/documentation/swiftdata/modelactor/modelexecutor): Executor for the actor.
+- [ModelActor.unownedExecutor](https://developer.apple.com/documentation/swiftdata/modelactor/unownedexecutor): Unowned executor reference.
+- [FetchResultsCollection.startIndex](https://developer.apple.com/documentation/swiftdata/fetchresultscollection/startindex): Start index of collection.
+- [FetchResultsCollection.indices](https://developer.apple.com/documentation/swiftdata/fetchresultscollection/indices): Valid indices for collection.
+- [FetchResultsCollection.last](https://developer.apple.com/documentation/swiftdata/fetchresultscollection/last): Last element in collection.
+- [FetchResultsCollection.lazy](https://developer.apple.com/documentation/swiftdata/fetchresultscollection/lazy): Lazy sequence view.
+- [FetchResultsCollection.Iterator](https://developer.apple.com/documentation/swiftdata/fetchresultscollection/iterator): Iterator for collection.
+- [HistoryDescriptor](https://developer.apple.com/documentation/swiftdata/historydescriptor): Descriptor for history tracking.
+- [HistoryChange](https://developer.apple.com/documentation/swiftdata/historychange): Individual change in history.
+- [HistoryDelete](https://developer.apple.com/documentation/swiftdata/historydelete): Delete operation in history.
+- [HistoryToken](https://developer.apple.com/documentation/swiftdata/historytoken): Token for history position.
+- [HistoryProviding](https://developer.apple.com/documentation/swiftdata/historyproviding): Protocol for history support.
+- [ConcurrencySupport](https://developer.apple.com/documentation/swiftdata/concurrencysupport): Concurrent access support documentation.
+- [DataStoreBatching](https://developer.apple.com/documentation/swiftdata/datastorebatching): Batch operations for data stores.
+- [DataStoreSnapshotCodingKey](https://developer.apple.com/documentation/swiftdata/datastoresnapshotcodingkey): Coding keys for snapshots.
+- [AdditionalQueryMacros](https://developer.apple.com/documentation/swiftdata/additionalquerymacros): Additional query-related macros.
+- [SwiftDataError.unsupportedPredicate](https://developer.apple.com/documentation/swiftdata/swiftdataerror/unsupportedpredicate): Error for unsupported predicates.
+- [HistoryDescriptor.predicate](https://developer.apple.com/documentation/swiftdata/historydescriptor/predicate): Predicate for history filtering.
+- [HistoryDescriptor.fetchLimit](https://developer.apple.com/documentation/swiftdata/historydescriptor/fetchlimit): Limit for history fetches.
+- [HistoryChange.changedPersistentIdentifier](https://developer.apple.com/documentation/swiftdata/historychange/changedpersistentidentifier): Changed object identifier.
+- [HistoryDelete.tombstone](https://developer.apple.com/documentation/swiftdata/historydelete/tombstone): Tombstone for deleted object.
+- [DataStoreSaveChangesRequest.inserted](https://developer.apple.com/documentation/swiftdata/datastoresavechangesrequest/inserted): Inserted objects in save.
+- [ModelContext.NotificationKey](https://developer.apple.com/documentation/swiftdata/modelcontext/notificationkey): Keys for notifications.
+- [PersistentModelInternal](https://developer.apple.com/documentation/swiftdata/persistentmodelinternal): Internal model protocol.
+- [SchemaComponents](https://developer.apple.com/documentation/swiftdata/schemacomponents): Components of a schema definition.
+- [SwiftData Changes](https://developer.apple.com/documentation/swiftdata?changes=latest_minor): Latest changes to SwiftData framework.

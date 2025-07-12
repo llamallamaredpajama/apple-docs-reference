@@ -1,0 +1,72 @@
+# CloudKit Framework - llms.txt
+
+- [CloudKit Overview](https://developer.apple.com/documentation/cloudkit): Store structured app and user data in iCloud containers that all users of your app can share.
+- [CKContainer](https://developer.apple.com/documentation/cloudkit/ckcontainer): A conduit to your app's databases in CloudKit.
+- [CKDatabase](https://developer.apple.com/documentation/cloudkit/ckdatabase): An object that represents a collection of record zones and subscriptions.
+- [CKRecord](https://developer.apple.com/documentation/cloudkit/ckrecord): A collection of key-value pairs that store your app's data.
+- [CKRecordZone](https://developer.apple.com/documentation/cloudkit/ckrecordzone): A database partition that contains related records.
+- [CKQuery](https://developer.apple.com/documentation/cloudkit/ckquery): A query that describes the criteria to apply when searching for records in a database.
+- [CKQueryOperation](https://developer.apple.com/documentation/cloudkit/ckqueryoperation): An operation for executing queries in a database.
+- [CKAsset](https://developer.apple.com/documentation/cloudkit/ckasset): An external file that belongs to a record.
+- [CKShare](https://developer.apple.com/documentation/cloudkit/ckshare): A reference to a share record that contains information about a shared record.
+- [Sharing CloudKit Data](https://developer.apple.com/documentation/cloudkit/sharing-cloudkit-data-with-other-icloud-users): Share CloudKit data with other iCloud users.
+- [CKSubscription](https://developer.apple.com/documentation/cloudkit/cksubscription): A subscription that tracks changes to records in a database.
+- [CKQuerySubscription](https://developer.apple.com/documentation/cloudkit/ckquerysubscription): A subscription that generates push notifications when CloudKit modifies records that match a predicate.
+- [CKDatabaseSubscription](https://developer.apple.com/documentation/cloudkit/ckdatabasesubscription): A subscription that generates push notifications when CloudKit modifies any record in a database.
+- [CKRecordZoneSubscription](https://developer.apple.com/documentation/cloudkit/ckrecordzonesubscription): A subscription that generates push notifications when CloudKit modifies records in a specific record zone.
+- [CKNotification](https://developer.apple.com/documentation/cloudkit/cknotification): The abstract base class for CloudKit notifications.
+- [CKQueryNotification](https://developer.apple.com/documentation/cloudkit/ckquerynotification): A notification that triggers when a record that matches the subscription's predicate changes.
+- [CKDatabaseNotification](https://developer.apple.com/documentation/cloudkit/ckdatabasenotification): A notification that triggers when any record changes in the database.
+- [CKRecordZoneNotification](https://developer.apple.com/documentation/cloudkit/ckrecordzonenotification): A notification that triggers when a record changes in a specific record zone.
+- [CKOperation](https://developer.apple.com/documentation/cloudkit/ckoperation): The abstract base class for all operations that execute in a database.
+- [CKDatabaseOperation](https://developer.apple.com/documentation/cloudkit/ckdatabaseoperation): The abstract base class for operations that act upon databases.
+- [CKModifyRecordsOperation](https://developer.apple.com/documentation/cloudkit/ckmodifyrecordsoperation): An operation for saving records to a database and deleting records from a database.
+- [CKFetchRecordsOperation](https://developer.apple.com/documentation/cloudkit/ckfetchrecordsoperation): An operation for retrieving records from a database.
+- [CKFetchRecordZonesOperation](https://developer.apple.com/documentation/cloudkit/ckfetchrecordzonesoperation): An operation for retrieving record zones from a database.
+- [CKModifyRecordZonesOperation](https://developer.apple.com/documentation/cloudkit/ckmodifyrecordzonesoperation): An operation for saving record zones to a database and deleting record zones from a database.
+- [CKFetchRecordZoneChangesOperation](https://developer.apple.com/documentation/cloudkit/ckfetchrecordzonechangesoperation): An operation that fetches record changes across the given record zone.
+- [CKFetchDatabaseChangesOperation](https://developer.apple.com/documentation/cloudkit/ckfetchdatabasechangesoperation): An operation that fetches database changes.
+- [CKFetchSubscriptionsOperation](https://developer.apple.com/documentation/cloudkit/ckfetchsubscriptionsoperation): An operation for fetching subscriptions.
+- [CKModifySubscriptionsOperation](https://developer.apple.com/documentation/cloudkit/ckmodifysubscriptionsoperation): An operation for saving subscriptions to a database and deleting subscriptions from a database.
+- [CKError](https://developer.apple.com/documentation/cloudkit/ckerror): A type that describes a CloudKit error.
+- [CKErrorDomain](https://developer.apple.com/documentation/cloudkit/ckerrordomain): The error domain for CloudKit errors.
+- [CKErrorRetryAfterKey](https://developer.apple.com/documentation/cloudkit/ckerrorretryafterkey): The key to retrieve the number of seconds to wait before you retry a request.
+- [CKPartialErrorsByItemIDKey](https://developer.apple.com/documentation/cloudkit/ckpartialerrorsbyitemidkey): The key to retrieve partial errors.
+- [CKServerChangeToken](https://developer.apple.com/documentation/cloudkit/ckserverchangetoken): An opaque token that represents a specific point in the database's history.
+- [CKOperationGroup](https://developer.apple.com/documentation/cloudkit/ckoperationgroup): An explicit association between two or more operations.
+- [CKRecordValueProtocol](https://developer.apple.com/documentation/cloudkit/ckrecordvalueprotocol): A protocol that the CloudKit framework uses to determine if a type is appropriate for storing in a record.
+- [CKAccountStatus](https://developer.apple.com/documentation/cloudkit/ckaccountstatus): Constants that indicate the availability of the user's iCloud account.
+- [CKAccountChangedNotification](https://developer.apple.com/documentation/cloudkit/ckaccountchangednotification): A notification that posts when the status of the signed-in iCloud account changes.
+- [CKUserIdentity](https://developer.apple.com/documentation/cloudkit/ckuseridentity): The identity of a user.
+- [CKDiscoverAllUserIdentitiesOperation](https://developer.apple.com/documentation/cloudkit/ckdiscoveralluseridentitiesoperation): An operation that uses the device's contacts to search for discoverable iCloud users.
+- [CKDiscoverUserIdentitiesOperation](https://developer.apple.com/documentation/cloudkit/ckdiscoveruseridentitiesoperation): An operation that uses the provided criteria to search for discoverable iCloud users.
+- [CKFetchShareParticipantsOperation](https://developer.apple.com/documentation/cloudkit/ckfetchshareparticipantsoperation): An operation that converts user identities into share participants.
+- [CKFetchShareMetadataOperation](https://developer.apple.com/documentation/cloudkit/ckfetchsharemetadataoperation): An operation for retrieving the metadata of a share.
+- [CKAcceptSharesOperation](https://developer.apple.com/documentation/cloudkit/ckacceptsharesoperation): An operation that accepts shared CKShare records.
+- [CKFetchWebAuthTokenOperation](https://developer.apple.com/documentation/cloudkit/ckfetchwebauthtokenoperation): An operation that creates an authentication token for use with CloudKit web services.
+- [CKLocationSortDescriptor](https://developer.apple.com/documentation/cloudkit/cklocationsortdescriptor): A sort descriptor that sorts records containing location data.
+- [CKSyncEngine](https://developer.apple.com/documentation/cloudkit/cksyncengine-5sie5): An object that manages the synchronization of local and remote record data.
+- [CKSyncEngineEvent](https://developer.apple.com/documentation/cloudkit/cksyncengineevent): An event that describes a change in the state of a sync engine.
+- [CKSyncEngineEventType](https://developer.apple.com/documentation/cloudkit/cksyncengineeventtype): The type of event that occurred in a sync engine.
+- [CKSyncEngineFetchChangesOptions](https://developer.apple.com/documentation/cloudkit/cksyncenginefetchchangesoptions): Options for fetching changes from CloudKit.
+- [CKSyncEngineState](https://developer.apple.com/documentation/cloudkit/cksyncenginestate): The state of a sync engine.
+- [CKSyncEnginePendingRecordZoneChangeType](https://developer.apple.com/documentation/cloudkit/cksyncenginependingrecordzonechangetype): The type of pending change to a record zone.
+- [CKSyncEngineZoneDeletionReason](https://developer.apple.com/documentation/cloudkit/cksyncenginezonedeletionreason): The reason for a zone deletion.
+- [CKSystemSharingUIObserver](https://developer.apple.com/documentation/cloudkit/cksystemsharinguiobserver): An object that manages system sharing UI interactions.
+- [CKShareTransferRepresentation](https://developer.apple.com/documentation/cloudkit/cksharetransferrepresentation): A representation of a share that can be transferred.
+- [CKAllowedSharingOptions](https://developer.apple.com/documentation/cloudkit/ckallowedsharingoptions): Options that specify allowed sharing configurations.
+- [CKSharingParticipantPermissionOption](https://developer.apple.com/documentation/cloudkit/cksharingparticipantpermissionoption): Options that specify participant permissions.
+- [Remote Records](https://developer.apple.com/documentation/cloudkit/remote-records): Use subscriptions and change tokens to efficiently manage modifications to remote records.
+- [CKRecordFieldKey](https://developer.apple.com/documentation/cloudkit/ckrecordfieldkey): Keys for accessing record fields.
+- [CKRecordKeyValueIterator](https://developer.apple.com/documentation/cloudkit/ckrecordkeyvalueiterator): An iterator for record key-value pairs.
+- [CKRecordKeyValueSetting](https://developer.apple.com/documentation/cloudkit/ckrecordkeyvaluesetting): Settings for record key-value operations.
+- [CKCurrentUserDefaultName](https://developer.apple.com/documentation/cloudkit/ckcurrentuserdefaultname): The default name for the current user.
+- [CKOwnerDefaultName](https://developer.apple.com/documentation/cloudkit/ckownerdefaultname): The default name for the record owner.
+- [CKRecordTypeShare](https://developer.apple.com/documentation/cloudkit/ckrecordtypeshare): The record type for share records.
+- [CKRecordTypeUserRecord](https://developer.apple.com/documentation/cloudkit/ckrecordtypeuserrecord): The record type for user records.
+- [CKShareTitleKey](https://developer.apple.com/documentation/cloudkit/cksharetitlekey): The key for a share's title.
+- [CKShareTypeKey](https://developer.apple.com/documentation/cloudkit/cksharetypekey): The key for a share's type.
+- [CKRecordNameZoneWideShare](https://developer.apple.com/documentation/cloudkit/ckrecordnamezonewideshare): The name for zone-wide share records.
+- [Record Changed Error Keys](https://developer.apple.com/documentation/cloudkit/ckrecordchangederrorserverrecordkey): Constants that represent conflicting records in a save operation.
+- [CKErrorUserDidResetEncryptedDataKey](https://developer.apple.com/documentation/cloudkit/ckerroruserdidresetencrypteddatakey): The key that determines whether CloudKit deletes a record zone because of a user action.
+- [CKFetchRecordChangesOperation](https://developer.apple.com/documentation/cloudkit/ckfetchrecordchangesoperation): An operation for fetching record changes (deprecated).
