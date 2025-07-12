@@ -188,7 +188,7 @@ git commit -m "Remove apple-docs submodule"
 ### Step 3: Or Create From Scratch
 ```bash
 # 1. Go to the apple-docs-reference folder
-cd /Users/jeremy/Documents/apple-docs-reference
+cd /Users/username/folder/apple-docs-reference
 
 # 2. Initialize Git
 git init
@@ -201,7 +201,7 @@ git commit -m "Initial commit: Apple documentation reference"
 
 # 5. Create repository on GitHub (via website)
 # Then connect it:
-git remote add origin https://github.com/llamallamaredpajama/apple-docs-reference
+git remote add origin https://github.com/yourusername/apple-docs-reference
 git push -u origin main
 ```
 
