@@ -8,7 +8,7 @@ A comprehensive, AI-friendly collection of Apple framework documentation designe
 ```bash
 # Clone this repository into your project
 cd YourSwiftProject
-git clone https://github.com/yourusername/apple-docs-reference .apple-docs
+git clone https://github.com/llamallamaredpajama/apple-docs-reference .apple-docs
 
 # That's it! Your AI assistant will now reference these docs automatically
 ```
@@ -94,7 +94,9 @@ Found an error or want to add documentation? Please open an issue or submit a PR
 
 ## 📄 License
 
-This repository contains reformatted Apple documentation for AI assistance purposes. All documentation content remains the property of Apple Inc. and is subject to Apple's terms of use.
+This repository structure and organization is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Important Note**: The documentation content itself is derived from Apple's official documentation and remains the property of Apple Inc. This repository contains reformatted versions for AI assistance purposes only. All Apple documentation content is subject to Apple's terms of use. Please refer to [Apple's Developer Documentation](https://developer.apple.com) for the original sources.
 
 ## 🙏 Acknowledgments
 

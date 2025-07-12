@@ -35,7 +35,7 @@ This is the simplest way to get started:
 cd /path/to/YourSwiftProject
 
 # 2. Clone this repository as .apple-docs
-git clone https://github.com/yourusername/apple-docs-reference .apple-docs
+git clone https://github.com/llamallamaredpajama/apple-docs-reference .apple-docs
 
 # 3. Remove the .git folder (this disconnects it from the original repo)
 rm -rf .apple-docs/.git
@@ -78,7 +78,7 @@ YourProject/
 cd /path/to/YourSwiftProject
 
 # 2. Add the submodule
-git submodule add https://github.com/yourusername/apple-docs-reference .apple-docs
+git submodule add https://github.com/llamallamaredpajama/apple-docs-reference .apple-docs
 
 # What this does:
 # - Creates a .apple-docs folder
@@ -103,7 +103,7 @@ When someone else (or you on another computer) clones your project:
 
 ```bash
 # Clone the project
-git clone https://github.com/yourusername/YourSwiftProject
+git clone https://github.com/llamallamaredpajama/YourSwiftProject
 cd YourSwiftProject
 
 # Initialize and update submodules
@@ -122,7 +122,7 @@ git submodule update --init --recursive
 ```ini
 [submodule ".apple-docs"]
     path = .apple-docs
-    url = https://github.com/yourusername/apple-docs-reference
+    url = https://github.com/llamallamaredpajama/apple-docs-reference
 ```
 
 2. **Git tracks the exact version:**
@@ -201,7 +201,7 @@ git commit -m "Initial commit: Apple documentation reference"
 
 # 5. Create repository on GitHub (via website)
 # Then connect it:
-git remote add origin https://github.com/yourusername/apple-docs-reference
+git remote add origin https://github.com/llamallamaredpajama/apple-docs-reference
 git push -u origin main
 ```
 
@@ -211,7 +211,7 @@ For convenience, use our setup script:
 
 ```bash
 # In your project directory
-curl -s https://raw.githubusercontent.com/yourusername/apple-docs-reference/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/llamallamaredpajama/apple-docs-reference/main/setup.sh | bash
 ```
 
 This script:
@@ -225,7 +225,7 @@ This script:
 ```bash
 # Make sure you have the right GitHub URL
 # Use HTTPS (not SSH) if you haven't set up SSH keys:
-git submodule add https://github.com/yourusername/apple-docs-reference .apple-docs
+git submodule add https://github.com/llamallamaredpajama/apple-docs-reference .apple-docs
 ```
 
 ### Submodule Folder is Empty
@@ -279,13 +279,13 @@ git commit -m "Switch apple-docs to branch-name"
 
 ```bash
 # Add submodule (first time)
-git submodule add https://github.com/yourusername/apple-docs-reference .apple-docs
+git submodule add https://github.com/llamallamaredpajama/apple-docs-reference .apple-docs
 
 # Update submodule (get latest)
 git submodule update --remote
 
 # Clone project with submodules
-git clone --recursive https://github.com/yourusername/YourProject
+git clone --recursive https://github.com/llamallamaredpajama/YourProject
 
 # If forgot --recursive
 git submodule update --init --recursive

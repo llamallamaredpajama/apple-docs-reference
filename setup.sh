@@ -12,7 +12,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 # Default values
-REPO_URL="https://github.com/yourusername/apple-docs-reference"
+REPO_URL="https://github.com/llamallamaredpajama/apple-docs-reference"
 DOCS_DIR=".apple-docs"
 
 echo -e "${BLUE}🍎 Apple Docs Reference Setup${NC}"
